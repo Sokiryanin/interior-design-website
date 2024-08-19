@@ -57,6 +57,12 @@ body {
     line-height: 1.7;
     color: var(--grayscale-50);
 }
+@media (max-width: 990.98px) {
+    .section-title {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+}
 /* всі класи з приставкою __container  */
 
 [class*="__container"] {
