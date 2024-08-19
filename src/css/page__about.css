@@ -1,0 +1,62 @@
+.page__about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about {}
+
+.about__container {}
+
+.about__content {}
+
+.about__header {}
+
+
+
+.header-about {
+    margin-bottom: 60px;
+}
+
+
+
+.content-about {
+    display: flex;
+    align-items: center;
+}
+
+.content-about__image {
+    margin-right: 90px;
+}
+
+.content-about__image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-about__wrap {
+    max-width: 230px;
+}
+
+.content-about__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--grayscale-10);
+    margin-bottom: 40px;
+}
+
+.content-about__btn {
+
+    padding: 14px 32px;
+    width: 142px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--grayscale-white);
+    background: var(--primary-blue-100);
+    transition: all 0.3s ease 0s;
+}
+
+.content-about__btn:hover {
+    background: var(--primary-blue-90);
+}

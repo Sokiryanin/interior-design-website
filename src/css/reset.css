@@ -1,5 +1,5 @@
 /* Reset styles */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css');
+
 h1,
 h2,
 h3,
@@ -8,6 +8,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
 p:last-child {

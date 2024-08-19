@@ -1,1 +1,1 @@
-console.log('Script working');
+import './css/styles.css';

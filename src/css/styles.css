@@ -4,18 +4,28 @@
   | default @import url()
   |============================
 */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@400;500;600;700&display=swap');
 @import url('./reset.css');
 @import url('./common.css');
 @import url('./header.css');
+@import url('./page__main.css');
+@import url('./page__about.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  --primary-blue-100: #2c3878;
+    --primary-blue-90: #566093;
+    --primary-blue-75: #8088ae;
+    --primary-blue-50: #abafc9;
+    --primary-blue-25: #d5d7e4;
+    --primary-blue-10: #eaebf2;
+    --grayscale-black: #000;
+    --grayscale-70: #141414;
+    --grayscale-50: #333;
+    --grayscale-30: #3c3c3c;
+    --grayscale-10: #9c9c9c;
+    --grayscale-lightray: #d9d9d9;
+    --grayscale-white: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
