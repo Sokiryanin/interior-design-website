@@ -15,6 +15,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    background-color: D9D9D9;
 }
 
 .page {

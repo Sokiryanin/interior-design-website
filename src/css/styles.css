@@ -9,8 +9,11 @@
 @import url('./reset.css');
 @import url('./common.css');
 @import url('./header.css');
-@import url('./page__main.css');
-@import url('./page__about.css');
+@import url('./section__main.css');
+@import url('./section__about.css');
+@import url('./section__services.css');
+@import url('./section__products.css');
+@import url('./section__materials.css');
 
 :root {
   --primary-blue-100: #2c3878;

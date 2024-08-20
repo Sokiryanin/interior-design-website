@@ -1,4 +1,4 @@
-.page__about {
+.section__about {
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -16,7 +16,7 @@
 }
 
 .content-about__image {
-width: 100%;
+    width: 100%;
 }
 
 .content-about__image img {
@@ -27,8 +27,8 @@ width: 100%;
 .content-about__wrap {
     max-width: 230px;
     display: flex;
-        flex-direction: column;
-        gap: 40px;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .content-about__text {
@@ -53,6 +53,7 @@ width: 100%;
 .content-about__btn:hover {
     background: var(--primary-blue-90);
 }
+
 @media (max-width: 990.98px) {
     .content-about {
         display: block;

@@ -1,9 +1,7 @@
-.page__main {
+.section__main {
     padding-top: 40px;
     padding-bottom: 80px;
 }
-
-.main-block {}
 
 .main-block__container {
     display: flex;

@@ -1,0 +1,143 @@
+.section__services {
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+@media (max-width: 1199.98px) {
+    .section__services {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 990.98px) {
+    .section__services {
+        padding-bottom: 80px;
+    }
+}
+
+.services__container {
+    position: relative;
+
+}
+
+.services__header {
+    margin-bottom: 24px;
+}
+
+
+.services__title {}
+
+.section-title {}
+
+.services__content {}
+
+
+.content-services {
+    position: relative;
+    overflow: visible;
+    min-height: 600px;
+}
+
+.content-services__text {
+    max-width: 471px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--grayscale-10);
+}
+
+.content-services__list {
+    max-width: 880px;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+    overflow: visible;
+
+}
+
+.content-services__image {
+    position: absolute;
+    overflow: visible;
+    right: 0;
+    top: 160px;
+    padding-left: 120px;
+    z-index: 1;
+}
+
+@media (max-width: 1199.98px) {
+    .content-services {
+        min-height: 500;
+    }
+
+    .content-services__list {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 990.98px) {
+
+    .content-services__list {
+        max-width: 100%;
+    }
+
+    .content-services__image {
+        position: static;
+        padding-left: 0;
+    }
+}
+
+
+.content-services__image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.list-services {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 40px 40px 40px 0px;
+}
+
+
+.list-services__item {
+    display: flex;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #333;
+
+}
+
+.list-services__number {
+    margin-right: 40px;
+}
+
+.list-services__name {
+    flex: 1;
+}
+
+@media (max-width: 990.98px) {
+    .list-services {
+        padding: 40px 0px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .list-services {
+        padding: 20px 0px;
+    }
+
+    .list-services__item {
+        font-size: 20px;
+    }
+}
+
+.list-services__arrow {}
+
+.list-services__link {}
