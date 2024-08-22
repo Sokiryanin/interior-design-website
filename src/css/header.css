@@ -62,13 +62,15 @@ padding-top: 30px;
 .last {
     border: 1px solid #3c3c3c;
     padding: 14px 32px;
-    width: 142px;
+    width: 145px;
     height: 49px;
     background: var(--primary-blue-100);
     color: white;
 }
 
 .last:hover {
-    background: var(--primary-blue-90);
+        background: #fff;
+            color: var(--grayscale-50);
+            border-radius: 3px;
 }
 

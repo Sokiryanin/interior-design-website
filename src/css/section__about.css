@@ -41,7 +41,7 @@
 .content-about__btn {
     display: block;
     padding: 14px 32px;
-    width: 142px;
+    width: 145px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
@@ -51,7 +51,10 @@
 }
 
 .content-about__btn:hover {
-    background: var(--primary-blue-90);
+    border: 1px solid black;
+        background: #fff;
+        color: var(--grayscale-50);
+        border-radius: 3px;
 }
 
 @media (max-width: 990.98px) {

@@ -140,4 +140,11 @@
 
 .list-services__arrow {}
 
-.list-services__link {}
+.list-services__link {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.list-services__link:hover {
+    transform: rotate(90deg);
+}

@@ -114,6 +114,11 @@
     text-align: left;
 }
 
+@media (max-width: 990.98px) {
+    .bottom-footer__right {
+        max-width: 100%;
+    }
+}
 .bottom-footer__text {
     font-weight: 400;
     font-size: 18px;
@@ -187,6 +192,7 @@
 }
 
 .soc-footer__icon {
+    display: inline-block;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -195,10 +201,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, filter 0.3s ease;
 }
 
 .soc-footer__icon img {
+    display: block;
     width: 24px;
     height: 24px;
+    transition: filter 0.3s ease;
+    }
+    
+    .soc-footer__icon:hover {
+        background-color: var(--grayscale-50);
+        transform: scale(1.1);
+    }
 
+.soc-footer__icon:hover img {
+    filter: brightness(0) invert(1);
+    /* Переводит цвет иконки в белый */
 }

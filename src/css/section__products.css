@@ -91,6 +91,20 @@
     max-width: 470px;
 }
 
+.list-products__link {
+    display: inline-block;
+}
+
+.list-products__link img {
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.list-products__link:hover img {
+    transform: rotate(90deg);
+    border: 1px solid black;
+    border-radius: 3px;
+}
 @media (max-width: 767.98px) {
     .list-products__number {
         margin-right: 30px;

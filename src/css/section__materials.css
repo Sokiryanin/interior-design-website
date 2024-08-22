@@ -52,6 +52,12 @@ position: relative;
     transition: all 0.3s ease 0s;
 }
 
+.material__link:hover {
+    border: 1px solid black;
+    background: #fff;
+    color: var(--grayscale-50);
+    border-radius: 3px;
+}
 
 .img-block {
     position: absolute;
